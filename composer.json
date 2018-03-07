@@ -1,0 +1,14 @@
+{
+    "name": "jsnlib/codeigniter_encryption",
+    "type": "library",
+    "require": {
+        "php": ">=7.1.0",
+        "jsnlib/jsnlib": "^2.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jsnlib\\": "src"
+        }
+    }
+}
