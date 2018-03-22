@@ -16,8 +16,8 @@ class Welcome extends CI_Controller {
         $token = $this->jsnlib_ecp->encrypt(
         [
             'name' => 'Jason',
-		    	  'age' => 18,
-			      'expiry' => '2019-01-01 10:00:00' //若不指定過期時間，將自動添加預設值
+            'age' => 18,
+            'expiry' => '2019-01-01 10:00:00' //若不指定過期時間，將自動添加預設值
         ]);
 
         // 4. 解密字串
@@ -35,5 +35,6 @@ class Welcome extends CI_Controller {
 ### decrypt(string $encrypt): array
 @param encrypt 加密的文字  
   
-@return is_expired 是否已經過期   
+@return is_expired 是否已經過期
+  
 @return data 加密前的原始資料
