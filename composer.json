@@ -2,8 +2,7 @@
     "name": "jsnlib/codeigniter_encryption",
     "type": "library",
     "require": {
-        "php": ">=7.1.0",
-        "jsnlib/jsnlib": "^2.2"
+        "php": ">=7.1.0"
     },
     "license": "MIT",
     "autoload": {
